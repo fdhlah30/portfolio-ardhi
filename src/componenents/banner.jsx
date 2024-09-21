@@ -26,7 +26,7 @@ export default function Banner() {
       className="ml-3 text-[30px] text-blue-700"/>
       </div>
     </div>
-    <div className="max-w-[750px] text-center mx-auto mt-5 text-[18px]"
+    <div className="italic max-w-[750px] text-center mx-auto mt-5 text-[18px]"
     data-aos="fade-up" 
     data-aos-easing="ease-in-sine"
     data-aos-duration="500"

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsInstagram  } from "react-icons/bs";
 
 export default function Header() {
     
@@ -23,11 +23,14 @@ export default function Header() {
              data-aos-easing="ease-in-sine"
              data-aos-duration="500"
              data-aos-delay="300">
-                <a href="/">
+                <a href="https://github.com/fdhlah30">
                     <BsGithub/>
                 </a>
                 <a href="/">
                     <BsLinkedin/>
+                </a>
+                <a href="/">
+                    <BsInstagram/>
                 </a>
             </div>
         </div>
