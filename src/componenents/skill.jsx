@@ -4,14 +4,22 @@ export default function Skill() {
   return (
     <div id="skill" className="section">
   <div className="container mx-auto max-w-[1200px] p-10 overflow-hidden mt-20">
-    <div className="font-secondary text-center font-bold mb-12 text-[30px]">
+    <div className="font-secondary text-center font-bold mb-12 text-[30px]"
+     data-aos="flip-down" 
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="500"
+     data-aos-delay="300">
       <h1 className="text-blue-700 mb-8">Skill</h1> {/* Judul Awesome Skill */}
     </div>
 
     <div className="w-full lg:pt-[20px] lg:ml-[30px]">
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center ">
         {/* Item Laravel */}
-        <div className="w-full">
+        <div className="w-full" 
+          data-aos="fade-right" 
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="500"
+          data-aos-delay="300">
           <div className="bg-white w-48 h-48 justify-center items-center flex rounded-lg overflow-hidden relative p-5 group"> {/* Ukuran kotak */}
             <img src="/images/laravel2.png" alt="Laravel" /> {/* Ukuran gambar */}
             <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
@@ -26,7 +34,11 @@ export default function Skill() {
         </div>
 
         {/* Item Bootstrap */}
-        <div className="w-full">
+        <div className="w-full" 
+        data-aos="fade-right" 
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="500"
+        data-aos-delay="300">
           <div className="bg-white w-48 h-48 justify-center items-center flex rounded-lg overflow-hidden relative p-5 group"> {/* Ukuran kotak */}
             <img src="/images/2.png" alt="Bootstrap" /> {/* Ukuran gambar */}
             <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
@@ -41,7 +53,11 @@ export default function Skill() {
         </div>
 
         {/* Item CSS */}
-        <div className="w-full">
+        <div className="w-full"
+        data-aos="fade-right" 
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="500"
+        data-aos-delay="300">
           <div className="bg-white w-48 h-48 justify-center items-center flex rounded-lg overflow-hidden relative p-5 group"> {/* Ukuran kotak */}
             <img src="/images/3.png" alt="CSS" /> {/* Ukuran gambar */}
             <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
@@ -56,7 +72,11 @@ export default function Skill() {
         </div>
 
         {/* Item HTML */}
-        <div className="w-full">
+        <div className="w-full"
+        data-aos="fade-right" 
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="500"
+        data-aos-delay="300">
           <div className="bg-white w-48 h-48 justify-center items-center flex rounded-lg overflow-hidden relative p-5 group"> {/* Ukuran kotak */}
             <img src="/images/4.png" alt="HTML" /> {/* Ukuran gambar */}
             <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
@@ -70,7 +90,11 @@ export default function Skill() {
           </div>
         </div>
 
-        <div className="w-full">
+        <div className="w-full"
+        data-aos="fade-left" 
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="500"
+        data-aos-delay="300">
           <div className="bg-white w-48 h-48 justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">
             <img src="/images/tailwind.png" alt="HTML" />
             <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
@@ -84,7 +108,11 @@ export default function Skill() {
           </div>
         </div>
 
-        <div className="w-full">
+        <div className="w-full"
+         data-aos="fade-left" 
+         data-aos-easing="ease-in-sine"
+         data-aos-duration="500"
+         data-aos-delay="300">
           <div className="bg-white w-48 h-48 justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">
             <img src="/images/jira.png" alt="HTML" />
             <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
@@ -97,7 +125,11 @@ export default function Skill() {
             </div>
           </div>
         </div>
-        <div className="w-full">
+        <div className="w-full"
+         data-aos="fade-left" 
+         data-aos-easing="ease-in-sine"
+         data-aos-duration="500"
+         data-aos-delay="300">
           <div className="bg-white w-48 h-48 justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">
             <img src="/logo192.png" alt="ReactJs" />
             <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">

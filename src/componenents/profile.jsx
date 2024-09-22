@@ -3,7 +3,7 @@ import React from 'react'
 export default function Profile() {
   return (
 <div id="profile" className="section">
-  <div className="container mx-auto max-w-[1200px] p-10 overflow-hidden">
+  <div className="container mx-auto max-w-[1200px] p-10 overflow-hidden mt-28">
     <div className="font-secondary text-center font-bold mb-12 text-[30px]">
       <h1 className="text-blue-700 mb-3"
           data-aos="flip-down" 

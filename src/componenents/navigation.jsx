@@ -18,7 +18,7 @@ export default function Navigation() {
         <Link to="profile" 
         activeClass="active"
         className="flex w-[50px] h-[50px] justify-center items-center cursor-pointer" 
-        offset={-100}
+        offset={80}
         smooth={true}
         spy={true}>
           <BiUser/>
@@ -26,7 +26,7 @@ export default function Navigation() {
         <Link to="skill" 
         activeClass="active"
         className="flex w-[50px] h-[50px] justify-center items-center cursor-pointer" 
-        offset={-100}
+        offset={80}
         smooth={true}
         spy={true}>
           <BiBarChartAlt2/>
@@ -34,7 +34,7 @@ export default function Navigation() {
         <Link to="portfolio" 
         activeClass="active"
         className="flex w-[50px] h-[50px] justify-center items-center cursor-pointer" 
-        offset={-100}
+        offset={80}
         smooth={true}
         spy={true}>
           <BiCode/>

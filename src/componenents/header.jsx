@@ -26,10 +26,10 @@ export default function Header() {
                 <a href="https://github.com/fdhlah30">
                     <BsGithub/>
                 </a>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/fadhilah-ardhiansyah">
                     <BsLinkedin/>
                 </a>
-                <a href="/">
+                <a href="https://www.instagram.com/fdhlah30">
                     <BsInstagram/>
                 </a>
             </div>
