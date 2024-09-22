@@ -9,7 +9,7 @@ export default function Header() {
             <div className="text-gradient font-secondary" 
             data-aos="fade-right" 
             data-aos-easing="ease-in-sine"
-            data-aos-duration="500"
+            data-aos-duration="400"
             data-aos-delay="300">
                 <a href="">
                     <h1 className="text-[30px] leading-none font-bold">
@@ -21,7 +21,7 @@ export default function Header() {
             <div className="flex items-center space-x-3" 
              data-aos="fade-left" 
              data-aos-easing="ease-in-sine"
-             data-aos-duration="500"
+             data-aos-duration="400"
              data-aos-delay="300">
                 <a href="https://github.com/fdhlah30">
                     <BsGithub/>

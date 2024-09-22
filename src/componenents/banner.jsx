@@ -29,8 +29,8 @@ export default function Banner() {
     <div className="italic max-w-[750px] text-center mx-auto mt-5 text-[18px]"
     data-aos="fade-up" 
     data-aos-easing="ease-in-sine"
-    data-aos-duration="500"
-    data-aos-delay="300">
+    data-aos-duration="800"
+    data-aos-delay="500">
       Bachelor's graduate in Information Systems from Universitas Bina Sarana Informatika. He has strong skills in computer operation, Wireless LAN installation and configuration, local network cabling,internet network setup, as well as proficiency in HTML, MySQL, Tailwind CSS, PHP Frameworks Laravel, GitHub, and Jira.</div>
     </div>
     </div>

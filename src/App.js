@@ -11,7 +11,8 @@ import Skill from "./componenents/skill"
 
 function App() {
     useEffect(() => {
-        Aos.init()
+        Aos.init();
+        Aos.refresh();
     },{})
     return <div>
         <Header/>

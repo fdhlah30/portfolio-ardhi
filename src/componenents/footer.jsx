@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-8 mt-[100px]">
+    <footer className="bg-gray-900 text-white py-8 pt-[30px] mt-[100px]">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center">
         {/* Bagian Contact Us di kiri */}
         <div className="text-left mb-6 md:mb-0">
