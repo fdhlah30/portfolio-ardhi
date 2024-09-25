@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Skill() {
   return (
@@ -13,7 +13,7 @@ export default function Skill() {
         </div>
 
         <div className="w-full">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 text-center">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 text-center justify-center">
             {/* Skill Items */}
             <SkillItem imgSrc="/images/laravel2.png" title="Laravel" level="Middle Laravel 11" />
             <SkillItem imgSrc="/images/2.png" title="Bootstrap" level="Middle Bootstrap 5" />
@@ -31,12 +31,13 @@ export default function Skill() {
 
 function SkillItem({ imgSrc, title, level }) {
   return (
-    <div className="w-full" 
+    <div className="w-full"
       data-aos="fade-right" 
       data-aos-easing="ease-in-sine"
       data-aos-duration="500"
       data-aos-delay="300">
-      <div className="bg-white w-36 sm:w-44 lg:w-48 h-36 sm:h-44 lg:h-48 justify-center items-center flex rounded-lg overflow-hidden relative p-5 group">
+      <div className="bg-white w-36 sm:w-44 lg:w-48 h-36 sm:h-44 lg:h-48 justify-center items-center flex rounded-lg overflow-hidden relative p-5 group
+        md:mb-4 mb-6"> {/* Tambahkan margin bottom di mobile */}
         <img src={imgSrc} alt={title} />
         <div className="absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear">
           <div className="text-center w-full text-white">
