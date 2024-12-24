@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <div id="home" className="section container mx-auto max-w-[1200px] px-3 items-center">
       <div className="w-full">
-        <div className="block text-center font-secondary font-black text-[25px] mt-10">
+        <div className="block text-center font-secondary font-black text-[25px] mt-16">
           Hello I am
           <div>
       <TypeAnimation

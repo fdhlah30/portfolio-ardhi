@@ -8,6 +8,7 @@ import Profile from "./componenents/profile"
 import Portfolio from "./componenents/portfolio"
 import Footer from "./componenents/footer"
 import Skill from "./componenents/skill"
+import Gallery from "./componenents/Gallery"
 
 function App() {
     useEffect(() => {
@@ -15,12 +16,12 @@ function App() {
         Aos.refresh();
     },{})
     return <div>
-        <Header/>
         <Navigation/>
         <Banner/>
         <Profile/>
         <Skill/>
         <Portfolio/>
+        <Gallery/>
         <Footer/>
     </div>
 }

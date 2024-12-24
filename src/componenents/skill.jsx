@@ -3,8 +3,8 @@ import React from 'react';
 export default function Skill() {
   return (
     <div id="skill" className="section">
-      <div className="container mx-auto max-w-[1200px] p-4 lg:p-10 overflow-hidden mt-20">
-        <div className="font-secondary text-center font-bold mb-12 text-[24px] lg:text-[30px]"
+      <div className="container mx-auto max-w-[1200px] px-3 relative lg:absolute left-0 right-0">
+        <div className="font-secondary text-center font-bold text-[24px] mt-5 lg:text-[30px]"
           data-aos="flip-down" 
           data-aos-easing="ease-in-sine"
           data-aos-duration="500"

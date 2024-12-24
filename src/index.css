@@ -9,11 +9,11 @@ body {
     overflow-x: hidden;
 }
 
-.active {
+/* .active {
     background: linear-gradient(45deg, #ff014f 20%, #011eff 70%);
-    border-radius: 50%;
+    border-style: dashed;
     color: #fff;
-}
+} */
 
 .text-gradient {
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#ff014f] to-[#011eff] font-bold;
